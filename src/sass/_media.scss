@@ -26,6 +26,22 @@
       margin: 20px 10px 40px 0;
     }
   }
+  .carousel {
+    width: 90%;
+    &__inner {
+      left: 40px;
+      width: 90%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .catalog {
+    &__content {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
 }
 @media (max-width: 767px) {
   .promo {
